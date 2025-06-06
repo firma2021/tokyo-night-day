@@ -1,0 +1,27 @@
+{
+  "name": "tokyo-night-day",
+  "displayName": "Tokyo Night Day",
+  "publisher": "firma",
+  "license": "MIT",
+   "repository": {
+    "type": "git",
+    "url": "https://github.com"
+  },
+  "version": "1.0.0",
+  "engines": {
+    "vscode": "^1.100.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Tokyo Night Day",
+        "uiTheme": "vs",
+        "path": "./tokyo-night-day-color-theme.json"
+      }
+    ]
+  },
+  "description": "Tokyo Night Day color theme for Visual Studio Code"
+}
